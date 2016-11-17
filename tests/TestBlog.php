@@ -1,7 +1,5 @@
 <?php
 
-require_once "vendor/autoload.php";
-
 use PHPUnit\Framework\TestCase;
 use FlatFileBlog\BlogManager;
 use Symfony\Component\Yaml\Yaml;
