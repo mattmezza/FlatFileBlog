@@ -1,0 +1,28 @@
+{
+    "name": "mattmezza/flat-file-blog",
+    "description": "Need a blog module for you website? This one's based on flat files",
+    "type": "library",
+    "require": {
+        "suin/php-rss-writer": "^1.5"
+    },
+    "require-dev": {
+        "erusev/parsedown-extra": "^0.7.1",
+        "symfony/yaml": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matteo Merola",
+            "email": "mattmezza@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FlatFileBlog\\": "src/"
+        }
+    }
+}
