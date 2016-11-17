@@ -3,11 +3,13 @@
     "description": "Need a blog module for you website? This one's based on flat files",
     "type": "library",
     "require": {
-        "suin/php-rss-writer": "^1.5"
+      "php": ">=5.3.0",
+      "suin/php-rss-writer": "^1.5",
+      "erusev/parsedown-extra": "^0.7.1",
+      "symfony/yaml": "^3.1"
     },
     "require-dev": {
-        "erusev/parsedown-extra": "^0.7.1",
-        "symfony/yaml": "^3.1"
+      "phpunit/phpunit": "5.5.*"
     },
     "license": "MIT",
     "authors": [
@@ -17,9 +19,6 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.3.0"
-    },
     "autoload": {
         "psr-4": {
             "FlatFileBlog\\": "src/"
