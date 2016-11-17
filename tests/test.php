@@ -1,6 +1,6 @@
 <?php
 
-require_once '../vendor/autoload.php'; // Autoload files using Composer autoload
+require_once 'vendor/autoload.php'; // Autoload files using Composer autoload
 
 use FlatFileBlog\BlogManager;
 use Symfony\Component\Yaml\Yaml;
